@@ -28,6 +28,7 @@ const RecordAnsSection = ({
     results,
     startSpeechToText,
     stopSpeechToText,
+    setResults,
   } = useSpeechToText({
     continuous: true,
     useLegacyResults: false,
@@ -89,9 +90,10 @@ const RecordAnsSection = ({
 
     if (resp) {
       toast("User Answer Recorded successfully :)");
+      setUserAnswer("");
     }
 
-    setUserAnswer("");
+    results.length = 0;
     setLoading(false);
   };
 
