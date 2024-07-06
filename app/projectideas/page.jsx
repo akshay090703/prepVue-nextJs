@@ -13,7 +13,6 @@ const resourcesData = {
     "Templates",
     "Indie Hackers",
   ],
-  liveStreamLink: "https://www.youtube.com/@singh1aryan",
   projectResources: {
     landingPageTemplates: [
       {
@@ -163,15 +162,20 @@ const ProjectIdeasPage = () => {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Join my Live Streams to Learn More
+          Contact me for any queries!
         </h2>
         <a
-          className="text-blue-500 underline"
-          href={resourcesData.liveStreamLink}
-          target="_blank"
-          rel="noopener noreferrer"
+          className=" underline text-blue-500"
+          href="https://www.instagram.com/kuchbhiakshay?igsh=MWh0OXB6b3htaTFsYw=="
         >
-          {resourcesData.liveStreamLink}
+          Instagram Profile
+        </a>
+        <br />
+        <a
+          className="underline text-blue-500"
+          href="https://www.linkedin.com/in/akshay-kumar-pandey/"
+        >
+          LinkedIn Profile
         </a>
       </section>
 

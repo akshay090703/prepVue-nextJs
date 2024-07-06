@@ -52,7 +52,7 @@ const StartInterview = ({ params }) => {
         )}
         {activeQuestionIdx != mockInterviewQuestion?.length - 1 && (
           <Button onClick={() => setActiveQuestionIdx(activeQuestionIdx + 1)}>
-            Next Interview
+            Next Question
           </Button>
         )}
         {activeQuestionIdx == mockInterviewQuestion?.length - 1 && (
