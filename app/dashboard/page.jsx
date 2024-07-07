@@ -13,6 +13,9 @@ function Dashboard() {
       <div className="grid grid-cols-1 md:grid-cols-3 my-5">
         <AddNewInterview />
       </div>
+      <p className="text-red-600 mb-3 -mt-3 text-sm">
+        *Use Google Chrome for Best Experience.
+      </p>
 
       {/* Previous Interview List */}
       <InterviewList />

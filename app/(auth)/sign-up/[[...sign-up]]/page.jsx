@@ -36,6 +36,9 @@ export default function Page() {
               automated mock interviews, so that you can practice and achieve
               your full potential.
             </p>
+            <p className="text-red-600 mb-3 text-sm">
+              *Use Google Chrome for Best Experience.
+            </p>
           </div>
         </section>
 
@@ -68,6 +71,9 @@ export default function Page() {
                 Prepare for your upcoming Interviews at PrepVue. We provide AI
                 automated mock interviews, so that you can practice and achieve
                 your full potential.
+              </p>
+              <p className="text-red-600 mb-5 -mt-4 text-sm">
+                *Use Google Chrome for Best Experience.
               </p>
             </div>
 
